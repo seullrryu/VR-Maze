@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Seulmin Ryu">
+		<title>VR Maze</title>
+
+		<script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+		<script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+		<script language="javascript" type="text/javascript" src="aframep5.js"></script>
+		<script language="javascript" type="text/javascript" src="sketch.js"></script>
+
+		<style>
+			body {
+				padding: 0;
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+	    <a-scene id="VRScene">
+  			<a-assets id="VRAssets">
+					<img src="images/asphalt.png" id="stone">
+
+					<a-asset id="tree1_obj" src="./objects/tree1/model.obj"></a-asset>
+					<a-asset id="tree1_mtl" src="./objects/tree1/materials.mtl"></a-asset>
+
+					<a-asset id="tree2_obj" src="./objects/tree2/model.obj"></a-asset>
+					<a-asset id="tree2_mtl" src="./objects/tree2/materials.mtl"></a-asset>
+
+					<a-asset id="tree3_obj" src="./objects/tree3/model.obj"></a-asset>
+					<a-asset id="tree3_mtl" src="./objects/tree3/materials.mtl"></a-asset>
+
+					<a-asset id="tree4_obj" src="./objects/tree4/model.obj"></a-asset>
+					<a-asset id="tree4_mtl" src="./objects/tree4/materials.mtl"></a-asset>
+
+					<a-asset id="bush1_obj" src="./objects/bush1/model.obj"></a-asset>
+					<a-asset id="bush1_mtl" src="./objects/bush1/materials.mtl"></a-asset>
+
+					<a-asset id="treasure" src="objects/treasure/model.obj"></a-asset>
+          <a-asset id="treasure_mtl" src="objects/treasure/materials.mtl"></a-asset>
+  			</a-assets>
+	    </a-scene>
+	</body>
+</html>

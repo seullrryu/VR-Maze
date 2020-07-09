@@ -1,0 +1,14 @@
+{
+  "name": "vr-maze",
+  "version": "1.0.0",
+  "description": "* Created by [Seulmin Ryu](https://seullrryu.github.io) and Woo Park  * Guided under Professor [Craig Kapp](https://cims.nyu.edu/~kapp/)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
