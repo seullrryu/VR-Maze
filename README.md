@@ -4,6 +4,9 @@
 * Created by Seulmin Ryu and Woo Park 
 * Under the guidance of Professor [Craig Kapp](https://cims.nyu.edu/~kapp/) 
 
+Implemented using **A-Frame, p5.js, and Node.js**.
+
+
 ## Instructions
 1. Open Terminal. 
 2. Naviage to the repository. 
